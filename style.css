@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{ outline: none;}
+a:focus,a:active{ outline: none;}
+
+nav,footer,header,aside {display: block;}
+
+html, body {
+
+
+    height: 100%;
+    width: 100%;
+    
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button, textarea {font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; margin: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+/*______________Обнуляшка_____________________________________*/
+h1 {
+    display: none;
+}
+
+.wrapper {
+    width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.YourLife {
+    background-image: url(./assets/img/bg-image.jpg);
+   
+    
+    color: #FFFFFF;
+   
+}
+
+.nav {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 557%;
+    padding: 14px 0px 7px 0px;
+}
+.nav__item li{
+    display: inline;
+    padding: 43px;
+    
+}
+.nav__item a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.nav__item a:hover{
+    opacity: 1;
+    border-bottom: 2px solid #ccc;
+}
+
+.nav__item img {
+    padding: 15px 15px 0px 0px;
+}
+.intro {
+    text-align: center;
+    height: 650px;
+   
+}
+.intro__heading {
+   
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    padding-top: 136px;
+
+}
+.intro__text {
+    margin-top: 20px;
+    height: 50px;
+
+    font-size: 18px;
+    line-height: 140%;
+   
+    /* or 25px */
+   
+}
+.intro__btn {
+    margin-top: 45px;
+    
+    /* Inside Auto Layout */
+      
+}
+.intro__btn a, .Rapp__info  a, .Impl__info a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00AFDB;
+    padding: 15px 47px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.intro__socials li{
+    padding: 0px 5px 0px 0px;
+    display: inline;
+    margin-left: 22px;
+}
+.intro__socials {
+    padding: 200px 10px 0 0;
+}
+/*_________________________________________________________________*/
+.Rappresent {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.Rapp__info {
+    padding: 295px 251px 334px 268px;
+}
+.Rapp__info a {
+    margin-top: 30px;
+}
+.Rapp__header, .Impl__header {
+   
+    width: 370px;
+    height: 57px;
+  
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+   
+  
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+.rapp__text {
+    width: 407px;
+    height: 80px;
+    margin: 23px 0 43px 0;
+    /* body-14-reg */
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    color: #4E4E4E;
+}
+.Rapp__img {
+    padding: 120px 270px 140px 0;
+}
+
+/* ______________________ third block _______________*/
+.Our__Community {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 269px;
+    background: #F5F6F7;
+    height: 480px;
+   
+}
+.Comm__info {
+    text-align: center; 
+}
+.Comm__ava {
+ 
+    width: 45px;
+    height: 45px;
+}
+.Comm__Head {
+   padding: 20px 0 10px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    color: #373737;
+   
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.Comm__text {
+    width: 298px;
+    height: 80px;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    text-align: center;
+}
+.Comm__slider {
+    display: inline;
+   
+}
+.Comm__slider img {
+    margin-left: 27px;
+
+}
+
+
+.Comm__nav_slide {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    left: calc(77% - -13px/2);
+    top: calc(15% - -10px/2 - 0.5px);
+    z-index: 1;
+
+   
+}
+
+.Implement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Impl__header {
+    padding: 20px 0 50px 0;
+}
+.Impl__img {
+    padding: 142px 0 140px 269px;
+}
+.Impl__info {
+    padding: 319px 378px 339px 0;
+}
+
+.Impl__text {
+    width: 407px;
+    
+   padding-bottom: 47px;
+    /* body-14-reg */
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    color: #4E4E4E;
+} /*____________________________*/
+
+.Subscribe {
+    background-image: url(./assets/img/pexels-christina-morillo-1181675\ 1.png);
+    background-repeat: no-repeat;
+    height: 523px;
+}
+.Sub__header {
+padding-top: 197px;    
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.Sub__form {
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.Sub__submit {
+ 
+    width: 350px;
+    height: 46px;
+}
+.Sub__submit::placeholder{
+   
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    padding-left: 24px;
+    
+    color: #373737;
+}
+.Sub__btn {
+    width: 65px;
+    height: 47px;
+    background: #00AFDB;
+   
+    margin-left: -10px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.Sub__btn:hover {
+    cursor: pointer;
+}
+/*________________________________________*/
+
+
+/* _____________________*/
+.SignUp {
+    height: 468px;
+    left: 0px;
+    top: 0px;
+
+    background: #F5F6F7;
+}
+.Sign__header {
+    padding: 120px 0 20px 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+.Sign__text {
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    text-align: center;
+    color: #4E4E4E;
+}
+.Sign__app {
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+.store, .market {
+    background: #00AFDB;
+    padding: 18px;
+    border-radius: 0px;
+   
+  
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+.market {
+   margin-left: 30px;
+}
+
+.store__logo {
+    padding: 15px;
+    background: #009CC2;
+    border-radius: 0px;
+}
+
+/*_____________________________________*/
+.footer {
+    height: 184px;
+     
+    color: #FFFFFF;
+    background: #000000;
+}
+.footer a {
+    color: #FFFFFF;
+    opacity: 0.7;
+} 
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 55px 0px 0px 0px;
+    /* body-14-reg */
+
+    font-size: 14px;
+    line-height: 320%;
+/* identical to box height, or 20px */
+
+}
+.footer__nav li {
+    display: inline;
+    padding-left: 10px;
+    
+}
+.footer__nav span{
+    color: #4E4E4E;
+}
+.footer__logo {
+    padding: 0px 136px 0 64px;
+   
+}
+.footer__text {
+  
+    font-size: 14px;
+    /* identical to box height, or 20px */
+    color: #818181;
+}
